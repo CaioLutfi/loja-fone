@@ -12,7 +12,7 @@
 - `<a>` - Link (a - *anchor*). Tag utilizada para definir a navegação do usuário. É usada, em conjunto com o atributo `href` que define o endereço para o qual o usuário será redirecionado. Exemplo:
 
 ```
-    <a href="http://www.collabcode.training">Collabcode.Training</a>
+    <a href="http:/www.collabcode.training">Collabcode.Training</a>
 ```
 
 ## CSS
