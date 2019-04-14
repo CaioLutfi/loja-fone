@@ -4,14 +4,17 @@ header {
 
 h1,
 a {
+  
   color: #fff;
 }
 
 h1 {
+  font-family: Arial, sans-serif;
   font-size: 40px;
 }
 
 nav {
+  font-family: "Segoe UI", sans-serif;
   font-size: 21px;
 }
 
