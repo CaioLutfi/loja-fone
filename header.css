@@ -4,6 +4,12 @@ header {
   overflow: hidden;
   margin: 0 115px;
   padding: 55px 60px 95px;
+  position: absolute;
+  top: 50%;
+  /*manter a largura do header*/
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 h1 {
