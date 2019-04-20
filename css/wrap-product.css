@@ -1,0 +1,5 @@
+.wrap-product {
+  display: inline-block; /*transforma o elemento em um conteúdo posicionando-o ao lado da imagem com float*/
+  width: 554px;
+  vertical-align: middle;
+}
