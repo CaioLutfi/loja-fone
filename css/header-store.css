@@ -33,7 +33,7 @@
   vertical-align: bottom;
 }
 
-.header-store input[type="search"]::placeholder{
+.header-store input[type="search"]::placeholder {
   color: inherit;
 }
 
@@ -76,7 +76,7 @@
 }
 
 @media (max-width: 1235px) {
-  .header-store{
+  .header-store {
     margin-bottom: 70px;
   }
 
@@ -98,7 +98,18 @@
     padding-right: 30px;
   }
   .header-store input[type="search"] {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+    transform: translateX(-88%);
+    transition: transform 200ms linear;
+  }
+
+  .header-store .-active[type="search"] {
+    transition: transform 600ms cubic-bezier(0, 0, 0.96, 1.26);
+    transform: translateX(0);
   }
 }
 

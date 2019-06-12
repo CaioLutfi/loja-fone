@@ -116,7 +116,7 @@
   }
 
   .description-product > .item.-heart {
-    position: static;
+    left: auto;
     transform: none;
   }
 }
@@ -125,5 +125,11 @@
   .description-product {
     width: 90%;
     min-width: auto;
+  }
+}
+
+@media (max-width: 475px){
+  .description-product > .item.-heart {
+    position: static;
   }
 }
