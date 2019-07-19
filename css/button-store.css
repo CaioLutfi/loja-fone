@@ -30,7 +30,6 @@
   border: 2px solid #fff;
   width: 218px;
   line-height: 56px; /*conteúdo menor (56px) devido ao box-sizing*/
-  margin-right: 38px;
 }
 
 .button-store.-second:hover,
@@ -46,6 +45,12 @@
   border: none;
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 1310px) {
+  .button-store.-second {
+    margin-right: 38px;
+  }
 }
 
 @media (max-width: 500px) {
